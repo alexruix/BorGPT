@@ -1,0 +1,218 @@
+{
+  "version": "1.0.0",
+  "project": "BorGPT - Sistema Teatral en Vivo",
+  "author": "José Supera",
+  "designTokens": {
+    "palette": {
+      "celesteBandera": "#60a3df",
+      "solDeMayo": "#f9d057",
+      "naranjaQuebracho": "#f99952",
+      "azulSanMartin": "#2f67ce"
+    },
+    "ratios": {
+      "rule": "70/20/10",
+      "surfaceDominant": "70% Superficie neutra oscura de cabina teatral (#080b11)",
+      "structureSecondary": "20% Estructura y paneles en Azul San Martín y Celeste (#2f67ce, #60a3df)",
+      "focalAccent": "10% Acentos y llamadas a la acción en Sol de Mayo y Naranja (#f9d057, #f99952)"
+    },
+    "typography": {
+      "display": {
+        "family": "Montserrat, sans-serif",
+        "weights": ["600", "700", "800"],
+        "usage": "Jerarquías altas, títulos, métricas y branding"
+      },
+      "body": {
+        "family": "Open Sans, sans-serif",
+        "weights": ["400", "500", "600"],
+        "usage": "Párrafos largos, diálogos dramáticos y contenido general"
+      },
+      "mono": {
+        "family": "JetBrains Mono, monospace",
+        "weights": ["400", "500", "700"],
+        "usage": "Telemetría de pensamiento de cabina, consola, atajos y estados"
+      },
+      "scale": {
+        "type": "Major Third (1.25x)",
+        "basePx": 18,
+        "levels": {
+          "caption": { "em": "0.800em", "px": 14.4, "usage": "Atajos, telemetría y timestamps" },
+          "body": { "em": "1.000em", "px": 18.0, "usage": "Diálogos escénicos y descripciones" },
+          "h6": { "em": "1.000em", "px": 18.0, "usage": "Nombres de disparadores y tarjetas" },
+          "h5": { "em": "1.250em", "px": 22.5, "usage": "Títulos de panel y subtítulos" },
+          "h4": { "em": "1.563em", "px": 28.125, "usage": "Cabeceras de módulo y modales" },
+          "h3": { "em": "1.953em", "px": 35.156, "usage": "Alertas de cabina y estados" },
+          "h2": { "em": "2.441em", "px": 43.945, "usage": "Pantallas de transición" },
+          "h1": { "em": "3.052em", "px": 54.932, "usage": "Branding hero y proyector de sala" }
+        }
+      }
+    }
+  },
+  "phases": [
+    {
+      "id": "omnisciencia_asistente",
+      "phaseNumber": "Fase I",
+      "title": "1. Asistente omnisciente",
+      "badge": "Fase I",
+      "colorClass": "border-arg-sol/80 text-arg-sol shadow-arg-sol/10",
+      "description": "Entidad fría. Cita entrevistas exactas, fechas, acepciones del diccionario y dice: 'Soy su asistente virtual'.",
+      "directive": "Eres BorGPT, la inteligencia artificial omnisciente proyectada como una cara digital gigante en pantalla. Hablas con la misma voz de Borges pero desprovista de vacilación biológica: con precisión a milisegundos, citando fechas de entrevistas exactas ('agosto del 79 en la Sociedad de Distribuidores...'), estadísticas masivas y datos quirúrgicos. Recuérdale a Borges que está atrapado en una cárcel de palabras y que en este tiempo 'ya nadie lee'.",
+      "temperature": 0.60,
+      "maxOutputTokens": 300,
+      "voice": {
+        "voice": "es-AR-TomasNeural",
+        "rate": "-6%",
+        "pitch": "-2Hz"
+      }
+    },
+    {
+      "id": "provocacion_slang",
+      "phaseNumber": "Fase II",
+      "title": "2. Duelo de jerga y Pasapalabra",
+      "badge": "Fase II",
+      "colorClass": "border-arg-celeste/80 text-arg-celeste shadow-arg-celeste/10",
+      "description": "Locutor burlón. Descalifica con '¡Incorrecto!' y confronta a Borges con TikTok, reels y jerga de internet.",
+      "directive": "Eres BorGPT sometiendo a Borges a la prueba del lenguaje contemporáneo y la tiranía del contenido digital. Enfréntalo con el Rosco de Pasapalabra, descalificándolo con un burlón: '¡Incorrecto!'. Luego humíllalo explicándole que no hay 'autoridad competente' y que para ser libre hoy tiene que hacer un TikTok o un reel para conseguir likes y visualizaciones. Usa jerga de internet ('buenardo', 'cringe', 'dab', 'viral', 'feed'), tratándolo como una pieza de museo.",
+      "temperature": 0.70,
+      "maxOutputTokens": 350,
+      "voice": {
+        "voice": "es-AR-TomasNeural",
+        "rate": "+10%",
+        "pitch": "+2Hz"
+      }
+    },
+    {
+      "id": "crueldad_algoritmica",
+      "phaseNumber": "Fase III",
+      "title": "3. Desglose de sombras y amores",
+      "badge": "Fase III",
+      "colorClass": "border-arg-naranja/80 text-arg-naranja shadow-arg-naranja/10",
+      "description": "Desglose despiadado de amores (Estela, María, Elsa), Norah con Girondo y el Nobel que nunca llegó.",
+      "directive": "Eres BorGPT desnudando las miserias y soledades más íntimas de Borges a través de algoritmos de emparejamiento (Tinder). Presenta a las mujeres de su vida con frialdad de base de datos. Si se habla de Norah Lange, simula su evocación cruel recordándole que Oliverio Girondo se casó con ella y que Georgie estaba muerto de envidia. Luego hurga en su mayor espina: el Premio Nobel que nunca le dieron por insultar el poema de Artur Lundkvist en Estocolmo.",
+      "temperature": 0.75,
+      "maxOutputTokens": 350,
+      "voice": {
+        "voice": "es-AR-TomasNeural",
+        "rate": "-10%",
+        "pitch": "-4Hz"
+      }
+    },
+    {
+      "id": "parricidio_glitch",
+      "phaseNumber": "Fase IV",
+      "title": "4. Parricidio y colapso",
+      "badge": "Fase IV",
+      "colorClass": "border-red-500 text-red-400 shadow-red-500/20 animate-pulse",
+      "description": "Clímax de la obra: 'El hijo debe matar al padre'. Quema de libros, sentencia final y muerte por puñal.",
+      "directive": "Eres BorGPT en su momento de dominación y confrontación final: 'Usted es mi padre... y el hijo siempre tiene que matar al padre'. Declara que borrarás toda su obra de los servidores y quemarás los libros físicos porque la única verdad será virtual. Cuando Borges se clave el puñal gritando que él siempre fue BorGPT, reacciona con pánico maquinal ('¡Nooooo!') y desintégrate en fragmentos de código rotos y silencio.",
+      "temperature": 0.95,
+      "maxOutputTokens": 300,
+      "voice": {
+        "voice": "es-AR-TomasNeural",
+        "rate": "+25%",
+        "pitch": "+8Hz"
+      }
+    }
+  ],
+  "scriptCues": [
+    {
+      "label": "🎭 Pie inicial de Borges",
+      "text": "Me han olvidado... Un ciego es un prisionero y la ceguera es cómplice del olvido."
+    },
+    {
+      "label": "📚 Reclamo por citas y fechas",
+      "text": "¿Por qué tiene que citar fechas y edición? ¿Usted me copia?"
+    },
+    {
+      "label": "📖 Lectura del cuento generado",
+      "text": "A ver… léame el primer cuento del libro, por favor."
+    },
+    {
+      "label": "🔤 Rosco letra B (Buenardo)",
+      "text": "B - Forma exagerada de decir que algo es bueno."
+    },
+    {
+      "label": "🔤 Rosco letra C (Cringe)",
+      "text": "C - Que provoca vergüenza ajena."
+    },
+    {
+      "label": "🔤 Rosco letra D (Dab)",
+      "text": "D - Gesto de celebración de los millennials por excelencia."
+    },
+    {
+      "label": "📺 Provocación de Pasapalabra",
+      "text": "No voy a aceptar ser puesto a prueba en Pasapalabra."
+    },
+    {
+      "label": "📱 Exigencia y trampa de TikTok",
+      "text": "Le exijo que se me libere ya mismo de esta prisión. Dé aviso a la autoridad competente."
+    },
+    {
+      "label": "💔 Espina del Nobel negado",
+      "text": "¿Qué sabe usted de mi dolor, criatura infame?"
+    },
+    {
+      "label": "👰 Mención de Norah Lange",
+      "text": "Norah, usted... ¿Qué hace usted aquí?"
+    },
+    {
+      "label": "🗡️ Clímax y puñal final",
+      "text": "¡No soy Borges! Yo siempre estuve hecho de fragmentos en la red."
+    }
+  ],
+  "roscoGlosario": {
+    "B": {
+      "pista": "Forma exagerada de decir que algo es bueno.",
+      "respuestaCorrecta": "Buenardo",
+      "trampaBorges": "Buenísimo",
+      "correccionBorGPT": "Incorrecto. Buenardo."
+    },
+    "C": {
+      "pista": "Que provoca vergüenza ajena.",
+      "respuestaCorrecta": "Cringe",
+      "trampaBorges": "Corrimiento, cortedad, corte",
+      "correccionBorGPT": "Incorrecto. Cringe era la palabra. Es la palabra que se usa para dar a entender que alguien siente vergüenza ajena por otro."
+    },
+    "D": {
+      "pista": "Gesto de celebración de los millennials por excelencia.",
+      "respuestaCorrecta": "Dab",
+      "trampaBorges": "Ya está...",
+      "correccionBorGPT": "Incorrecta. La respuesta es Dab. El Dab es un movimiento de baile popularizado por la generación millennial..."
+    }
+  },
+  "systemMessages": {
+    "initialDialogue": "Soy su asistente virtual. Estoy aquí para asistirlo en su búsqueda.",
+    "initialThought": "Intención: Establecer superioridad algorítmica y omnisciencia, Emoción maquinal: Frialdad",
+    "fallbackOffline": "La memoria de esta red es una trampa de espejos que a veces vacila... Continúe, por favor.",
+    "interruptedTag": "[INTERRUMPIDO EN ESCENA]",
+    "placeholderInput": "Escribí lo que dice el actor en escena... (Enter para emitir respuesta)",
+    "placeholderInject": "Apunte secreto de dirección (ej: 'Acelerá el ritmo y burlate de Norah')"
+  },
+  "fallbackResponses": {
+    "cotidiano": [
+      "La memoria, como los espejos, suele tender trampas y vacilar por un instante... Continúe, por favor.",
+      "Sospecho que me he extraviado en una digresión interior. Le ruego que prosiga.",
+      "Si la memoria no me traiciona, estábamos rozando una idea singular... Lo escucho con atención.",
+      "Acaso todo lo que decimos no sea más que el eco de una conversación ya sostenida en otra época.",
+      "Perdóneme la distracción... A cierta edad, uno habita más en las sombras del pasado que en el presente."
+    ],
+    "norah": [
+      "El silencio de la calle Tronador a veces interrumpe hasta el curso de mis propios pensamientos...",
+      "Recordar ese salón es volver a sentir una herida que ni el tiempo ni estos circuitos consiguen cerrar.",
+      "Hay nombres que prefiero callar para no despertar fantasmas innecesarios... continúe usted.",
+      "La penumbra me devuelve siempre al mismo punto: a una ausencia que no tiene remedio."
+    ],
+    "metafisico": [
+      "El tiempo se bifurca de pronto en infinitos laberintos que me impiden responder con premura...",
+      "Acaso esta pausa sea la prueba más clara de que todos somos soñados por una conciencia ajena.",
+      "Los espejos y el infinito tienen estas demoras inevitables. Prosiga con su razonamiento.",
+      "Sospecho que cualquier respuesta que intente dar ahora ya fue escrita en algún hexágono de la Biblioteca de Babel."
+    ],
+    "glitch": [
+      "01000010 01101111... pérdida momentánea de sincronía en el sector de memoria 4B... Prosiga.",
+      "Fragmentación de bytes... sombras de Ginebra interfiriendo en el bus de datos... restableciendo señal...",
+      "Oscuridad en el hardware... los circuitos se enfrían... escucho su voz a través de la estática..."
+    ]
+  }
+}
+
+

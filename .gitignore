@@ -40,6 +40,10 @@ desktop.ini
 
 # Archivos temporales generados y binarios pesados
 *.pdf
+bioy-casares-adolfo-borges.pdf
+Jorge_Luis_Borges_Siete_Noches_-_La_Divina_Comedia_Conferencia.wav
+data/audio/*.wav
+!data/audio/borges_reference.wav
 data/corpus/corpus_maestro_unificado.md
 data/temp/
 temp/

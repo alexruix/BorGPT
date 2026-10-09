@@ -1,0 +1,19 @@
+{
+  "name": "borgpt",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BorGPT - Sistema Teatral y Consola de Cabina en Vivo",
+  "scripts": {
+    "dev": "npm --prefix web run dev",
+    "dev:server": "npm --prefix server run dev",
+    "dev:all": "start npm --prefix server run dev && npm --prefix web run dev",
+    "typecheck:server": "npm --prefix server run typecheck",
+    "typecheck:web": "npm --prefix web run typecheck",
+    "typecheck": "npm run typecheck:server && npm run typecheck:web",
+    "test": "npm --prefix server run test",
+    "build:web": "npm --prefix web run build",
+    "build:server": "npm --prefix server run build",
+    "build": "npm run build:server && npm run build:web",
+    "start": "node server/dist/server.js"
+  }
+}

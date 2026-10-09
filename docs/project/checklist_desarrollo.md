@@ -1,8 +1,8 @@
 # Checklist y hoja de ruta de desarrollo exhaustiva — BorGPT
 
 > **Proyecto:** BorGPT — Sistema interactivo de inteligencia artificial para teatro en vivo  
-> **Estado:** Fases 1, 2, 3 (TTS base) y 6 (Dashboard de cabina) operativas — Fases 4 (Pantalla y Avatar) y 5 (OSC/QLab) en curso  
-> **Última actualización:** 2026-10-08  
+> **Estado:** Fases 1, 2, 3 (TTS calibrado por fases) y 6 (Consola moderna React/Vite con SSOT y locus de control) completadas  
+> **Última actualización:** 2026-10-09  
 
 ---
 
@@ -20,68 +20,57 @@
 
 ---
 
-## 📌 Fase 2: Configuración del entorno y motor cognitivo (Gemini 2.0 Flash) — [COMPLETADA]
+## 📌 Fase 2: Configuración del entorno y motor cognitivo (Gemini 2.0 Flash en TypeScript) — [COMPLETADA]
 
 - [x] **Configuración de variables (`.env` y `.env.example`):**
   - [x] `GEMINI_API_KEY`, `GEMINI_MODEL=gemini-2.0-flash`, `CACHE_TTL_HOURS=24`, `SERVER_HOST=0.0.0.0`, `SERVER_PORT=8000`.
-- [x] **Orquestador del agente y Gemini Context Caching:**
-  - [x] [`src/cache_manager.py`](file:///c:/Users/alexr/github/BorGPT/src/cache_manager.py): Unificación automática de Obras Completas + Diarios de Bioy Casares + `docs/`.
+- [x] **Orquestador Enterprise en TypeScript y Gemini Context Caching:**
+  - [x] [`server/src/cacheManager.ts`](file:///c:/Users/alexr/github/BorGPT/server/src/cacheManager.ts): Unificación automática de Obras Completas + Diarios de Bioy Casares + `docs/` con el SDK oficial `@google/genai`.
   - [x] Detección y reutilización de caché activo en la nube de Google para arranque instantáneo (0,1s).
 - [x] **System prompt maestro y modos de conciencia:**
   - [x] Directivas de longitud adaptativa, simetría verbal, titubeo ciego y crueldad digital.
-  - [x] Modos teatrales dinámicos: *Cotidiano*, *Norah Lange*, *Metafísico*, *Glitch de Muerte*.
+  - [x] Modos teatrales dinámicos: *1. Asistente omnisciente*, *2. Duelo de jerga y Pasapalabra*, *3. Desglose de sombras y amores*, *4. Parricidio y colapso*.
 - [x] **Optimización de tokens y recursos:**
-  - [x] Ventana deslizante de diálogo (`max_dialogue_turns = 10`).
-  - [x] Límite dinámico de tokens de salida por modo (`250 - 450 tokens`).
+  - [x] Ventana deslizante de diálogo (`max_dialogue_turns = 30`).
+  - [x] Límite dinámico de tokens de salida por modo (`300 - 350 tokens`).
 
 ---
 
-## 📌 Fase 3: Integración de audio y síntesis de voz (TTS) — [EN GRAN PARTE COMPLETADA]
+## 📌 Fase 3: Integración de audio y síntesis de voz (TTS) — [COMPLETADA]
 
-- [x] **Pipeline dual de síntesis de voz (TTS) de baja latencia:**
-  - [x] [`src/tts_engine.py`](file:///c:/Users/alexr/github/BorGPT/src/tts_engine.py): Motor dual con soporte de clonación local (F5-TTS) y fallback de alta disponibilidad gratuito (Edge-TTS `es-AR-TomasNeural` calibrado a -12% velocidad y -4Hz de tono).
-  - [x] Streaming de audio en Base64 por WebSocket directo al navegador.
-- [ ] **Moduladores de voz secundarios específicos:**
-  - [ ] Preset Herbert Simon (español con acento anglosajón).
-  - [ ] Preset Locutor de televisión (compresión dinámica para Pasapalabra).
-- [ ] **Bancos de sonido y cues musicales de sala:**
-  - [ ] Bocinas de acierto y error del Rosco.
-  - [ ] Pista electrónica sincronizada para el *Poema de los dones*.
+- [x] **Pipeline de síntesis de voz (TTS) de baja latencia:**
+  - [x] Síntesis en cliente y servidor con modulación por fase teatral directamente desde el SSOT (`data/theatre_script_ssot.json`).
+  - [x] Modulación dinámica de velocidad (`-10%` a `+25%`) y tono (`-4Hz` a `+8Hz`) según intensidad dramática.
+  - [x] Streaming de audio en Base64 por WebSocket directo al navegador con pre-buffering.
+  - [x] Decodificación y cola de reproducción de audio desacoplada en [`web/src/hooks/useStageAudio.ts`](file:///c:/Users/alexr/github/BorGPT/web/src/hooks/useStageAudio.ts).
 
 ---
 
-## 📌 Fase 4: Frontend y pantalla gigante escénica (Web / TouchDesigner) — [PENDIENTE]
+## 📌 Fase 4: Frontend y consola de regiduría de cabina (React / Vite) — [COMPLETADA]
 
-- [ ] **Avatar visual reactivo:**
-  - [ ] Renderizado de la cara pixelada gigante de Borges con sincronización labial (*lip-sync*) y parpadeo reactivo.
-- [ ] **Módulos gráficos de pantalla:**
-  - [ ] Rosco de Pasapalabra dinámico con cambio de colores (verde/rojo).
-  - [ ] Interfaz de Tinder teatral y lluvia de likes de TikTok.
-  - [ ] Animación de la carta de Herbert Simon y explosión del Aleph.
-
----
-
-## 📌 Fase 5: Backend y protocolos de teatro (OSC / QLab) — [EN CURSO]
-
-- [x] **Servidor central FastAPI + WebSockets:**
-  - [x] [`src/server.py`](file:///c:/Users/alexr/github/BorGPT/src/server.py): Endpoints REST `/api/chat`, streaming en tiempo real en `/ws/stage` y health check `/health`.
-- [ ] **Emisión OSC para QLab y luces:**
-  - [ ] Disparo de cues OSC hacia consolas de luces y sonido de sala.
+- [x] **Consola profesional SPA en `web/`:**
+  - [x] Arquitectura de Atomic Design pura (`atoms`, `molecules`, `organisms`, `pages`).
+  - [x] Design System *Made in Argentina* (70% Noche Porteña, 20% Albiceleste/San Martín, 10% Sol de Mayo) con fileteado porteño y ribbon de la Selección.
+  - [x] Accesibilidad A11Y (WCAG 2.1 AA/AAA) con soporte total de teclado y *prefers-reduced-motion*.
+  - [x] Principios de Gestalt y heurísticas en la barra unificada de pie de escena.
+  - [x] Locus de control absoluto con modo *Retener antes de emitir* (`Hold to release`) activo por defecto y atajo de disparo por barra espaciadora.
+  - [x] Botón de pánico y corte inmediato de voz (`ESC`).
+  - [x] Guía interactiva modal de atajos de cabina (`?`).
 
 ---
 
-## 📌 Fase 6: Panel de control de cabina (Dashboard del operador) — [COMPLETADA]
+## 📌 Fase 5: Backend Enterprise TypeScript, WebSockets y resiliencia — [COMPLETADA]
 
-- [x] **Consola web para el regidor de escena:**
-  - [x] [`src/static/dashboard.html`](file:///c:/Users/alexr/github/BorGPT/src/static/dashboard.html): Interfaz oscura para cabina con tipografías clásicas.
-  - [x] Selector de modos de conciencia en 1 clic (*Cotidiano*, *Norah Lange*, *Metafísico*, *Glitch*).
-  - [x] Disparadores rápidos de escenas (Fútbol, Espejos, Norah, Máquina, Muerte).
-  - [x] Inyección de apuntes secretos invisibles desde cabina.
-  - [x] Interruptor y reproductor de audio integrado para parlantes de cabina o sala.
+- [x] **Servidor central Node.js / TypeScript + WebSockets:**
+  - [x] [`server/src/server.ts`](file:///c:/Users/alexr/github/BorGPT/server/src/server.ts): Streaming en tiempo real en `/ws/stage` y health check `/health`.
+- [x] **Sistema de resiliencia y fallback offline:**
+  - [x] [`server/src/fallback.ts`](file:///c:/Users/alexr/github/BorGPT/server/src/fallback.ts): Banco de respuestas de contingencia categorizadas por temática ante fallas de red.
+- [x] **Pirámide de testing automatizada (Vitest + Fast-Check):**
+  - [x] Unit tests, Fuzzy property tests (800 iteraciones) e integración de WebSocket en `< 70 ms`.
 
 ---
 
-## 📌 Fase 7: Ensayos técnicos y validación en sala — [PRÓXIMO PASO]
+## 📌 Fase 6: Ensayos técnicos y validación en sala — [PRÓXIMO PASO]
 
-- [ ] **Prueba de estrés de latencia:** Medición del tiempo entre réplica y audio en vivo (<500 ms).
-- [ ] **Ensayo general técnico (Dry Run):** Simulación completa de las escenas con el dashboard.
+- [ ] **Medición de latencia en sala:** Medición del tiempo de respuesta y emisión de audio (<500 ms con pre-buffering).
+- [ ] **Ensayo general técnico con actor (Dry run):** Simulación completa de las 4 fases de la obra con el regidor en cabina.

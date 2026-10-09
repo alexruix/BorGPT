@@ -8,14 +8,25 @@ export const ThoughtBubble: React.FC<ThoughtBubbleProps> = ({ thought }) => {
   if (!thought) return null;
 
   return (
-    <div className="bg-thought-bg border border-dashed border-thought-border rounded-md px-3 py-2 mb-3 font-mono text-xs text-thought-gold leading-relaxed flex items-start gap-2 shadow-sm animate-fadeIn">
-      <span className="text-sm">🧠</span>
-      <div>
-        <span className="font-bold uppercase tracking-wider text-[10px] text-amber-500 block mb-0.5">
-          Deliberación Interior de Cabina:
+    <div
+      role="region"
+      aria-label="Acotación e intención escénica de BorGPT"
+      className="bg-thought-bg border border-thought-border rounded-lg p-3 mb-3 font-mono text-xs text-gold-light shadow-inner backdrop-blur-xs animate-fadeIn"
+    >
+      <div className="flex items-center gap-2 mb-1.5 border-b border-thought-border/40 pb-1">
+        <span className="flex h-2 w-2 relative" aria-hidden="true">
+          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-gold-light opacity-75"></span>
+          <span className="relative inline-flex rounded-full h-2 w-2 bg-gold"></span>
         </span>
-        <span>{thought}</span>
+        <span className="font-semibold text-xs text-gold">
+          Acotación e intención escénica (solo cabina)
+        </span>
       </div>
+      <p className="leading-relaxed text-xs text-gold-light font-mono select-text">
+        {thought}
+      </p>
     </div>
   );
 };
+
+
