@@ -1,115 +1,87 @@
 # Checklist y hoja de ruta de desarrollo exhaustiva — BorGPT
 
 > **Proyecto:** BorGPT — Sistema interactivo de inteligencia artificial para teatro en vivo  
-> **Estado:** Fase 1 completada — Fase 2 por iniciar  
+> **Estado:** Fases 1, 2, 3 (TTS base) y 6 (Dashboard de cabina) operativas — Fases 4 (Pantalla y Avatar) y 5 (OSC/QLab) en curso  
 > **Última actualización:** 2026-10-08  
 
 ---
 
-## 📌 Fase 1: Base de conocimiento y memoria RAG (`docs/`) — [COMPLETADA]
+## 📌 Fase 1: Base de conocimiento y memoria RAG (`docs/` y `data/corpus/`) — [COMPLETADA]
 
 - [x] **Estructura de carpetas documentales:** Creación de las 8 carpetas en `docs/`.
 - [x] **Guion teatral:** [`docs/project/obra_teatro.md`](file:///c:/Users/alexr/github/BorGPT/docs/project/obra_teatro.md).
 - [x] **Especificación del personaje:** [`docs/project/borGPT.md`](file:///c:/Users/alexr/github/BorGPT/docs/project/borGPT.md).
-- [x] **Arquitectura técnica:** [`docs/project/arquitectura_tecnica.md`](file:///c:/Users/alexr/github/BorGPT/docs/project/arquitectura_tecnica.md).
-- [x] **Corpus literario:** [`docs/libros/cuentos_clave.md`](file:///c:/Users/alexr/github/BorGPT/docs/libros/cuentos_clave.md), [`docs/libros/poemas_y_ensayos.md`](file:///c:/Users/alexr/github/BorGPT/docs/libros/poemas_y_ensayos.md).
-- [x] **Archivo biográfico e histórico:** [`docs/entrevistas/entrevistas_historicas.md`](file:///c:/Users/alexr/github/BorGPT/docs/entrevistas/entrevistas_historicas.md), [`docs/entrevistas/biografias_y_relaciones.md`](file:///c:/Users/alexr/github/BorGPT/docs/entrevistas/biografias_y_relaciones.md).
-- [x] **Cultura digital y slang:** [`docs/cultura_digital/slang_y_memes.md`](file:///c:/Users/alexr/github/BorGPT/docs/cultura_digital/slang_y_memes.md), [`docs/cultura_digital/redes_sociales_e_ia.md`](file:///c:/Users/alexr/github/BorGPT/docs/cultura_digital/redes_sociales_e_ia.md).
-- [x] **Filosofía y autores:** [`docs/filosofia_y_autores/idealismo_y_tiempo.md`](file:///c:/Users/alexr/github/BorGPT/docs/filosofia_y_autores/idealismo_y_tiempo.md), [`docs/filosofia_y_autores/autores_clave.md`](file:///c:/Users/alexr/github/BorGPT/docs/filosofia_y_autores/autores_clave.md).
-- [x] **Citas y humor:** [`docs/citas_y_aforismos/citas_tematicas.md`](file:///c:/Users/alexr/github/BorGPT/docs/citas_y_aforismos/citas_tematicas.md), [`docs/citas_y_aforismos/aforismos_y_humor.md`](file:///c:/Users/alexr/github/BorGPT/docs/citas_y_aforismos/aforismos_y_humor.md).
+- [x] **Directivas anti-caricatura y voz:** [`docs/project/reglas_personalidad_y_prompt.md`](file:///c:/Users/alexr/github/BorGPT/docs/project/reglas_personalidad_y_prompt.md).
+- [x] **Corpus literario canónico (18 libros):** Obras completas 1923-1972, *Siete noches*, *El libro de arena*, *La cifra*, etc.
+- [x] **Diarios completos de Bioy Casares (1931-1989):** Extracción y optimización cronológica de 3.953 páginas en [`data/corpus/borges_bioy/borges_bioy_optimizado.md`](file:///c:/Users/alexr/github/BorGPT/data/corpus/borges_bioy/borges_bioy_optimizado.md).
+- [x] **Archivo biográfico e histórico oral:** Entrevistas íntegras de RTVE 1976 y 1980 (Soler Serrano), Antonio Carrizo (1984), México (1973), etc.
+- [x] **Fobias, manías y aversiones:** [`docs/filosofia_y_autores/fobias_aversiones_y_obsesiones.md`](file:///c:/Users/alexr/github/BorGPT/docs/filosofia_y_autores/fobias_aversiones_y_obsesiones.md) (Fútbol/Mundial 78, espejos de Serrano, cópula, anarquismo spenceriano).
 - [x] **Perfiles de modulación:** [`docs/personajes/norah_lange.md`](file:///c:/Users/alexr/github/BorGPT/docs/personajes/norah_lange.md), [`docs/personajes/herbert_simon.md`](file:///c:/Users/alexr/github/BorGPT/docs/personajes/herbert_simon.md), [`docs/personajes/locutor_tv.md`](file:///c:/Users/alexr/github/BorGPT/docs/personajes/locutor_tv.md).
-- [x] **Mecánicas interactivas:** [`docs/escenas_y_dinamicas/rosco_pasapalabra.md`](file:///c:/Users/alexr/github/BorGPT/docs/escenas_y_dinamicas/rosco_pasapalabra.md), [`docs/escenas_y_dinamicas/catalogo_tinder.md`](file:///c:/Users/alexr/github/BorGPT/docs/escenas_y_dinamicas/catalogo_tinder.md), [`docs/escenas_y_dinamicas/escape_room_logica.md`](file:///c:/Users/alexr/github/BorGPT/docs/escenas_y_dinamicas/escape_room_logica.md).
 
 ---
 
-## 📌 Fase 2: Configuración del entorno y motor cognitivo (Gemini API)
+## 📌 Fase 2: Configuración del entorno y motor cognitivo (Gemini 2.0 Flash) — [COMPLETADA]
 
-- [ ] **Configuración de variables (`.env` y `.env.example`):**
-  - [ ] `GEMINI_API_KEY` (clave privada de Google AI).
-  - [ ] `GEMINI_MODEL` (ej. `gemini-2.5-flash` para mínima latencia o `gemini-1.5-pro` para máxima profundidad).
-  - [ ] `SERVER_PORT=3000` y `WS_PORT=3001`.
-  - [ ] `QLAB_OSC_IP` y `QLAB_OSC_PORT`.
-- [ ] **Orquestador del agente e indexador RAG local:**
-  - [ ] Módulo lector e indexador de archivos `.md` en memoria o base vectorial embebida.
-  - [ ] Inyector dinámico de contexto según el acto de la obra en curso.
-- [ ] **System prompt maestro de BorGPT:**
-  - [ ] Pautas de identidad, vocabulario, velocidad retórica y cinismo digital.
-  - [ ] Instrucciones de seguridad para no romper el personaje ante improvisaciones no previstas.
-- [ ] **Salidas estructuradas (JSON schema estricto):**
-  - [ ] Esquema JSON con campos: `dialogo_texto`, `audio_preset`, `pantalla_comando`, `evento_osc`, `estado_emocional`.
-- [ ] **Máquina de estados dramáticos (State Machine):**
-  - [ ] Acto 1: Despertar, encierro y revelación de la IA.
-  - [ ] Acto 2: Duelo de Pasapalabra con Rosco en tiempo real.
-  - [ ] Acto 3: App de citas y distorsión de Norah Lange.
-  - [ ] Acto 4: Oficina de Simon y explosión de Internet.
-  - [ ] Acto 5: Clímax, apuñalamiento y apagón final.
+- [x] **Configuración de variables (`.env` y `.env.example`):**
+  - [x] `GEMINI_API_KEY`, `GEMINI_MODEL=gemini-2.0-flash`, `CACHE_TTL_HOURS=24`, `SERVER_HOST=0.0.0.0`, `SERVER_PORT=8000`.
+- [x] **Orquestador del agente y Gemini Context Caching:**
+  - [x] [`src/cache_manager.py`](file:///c:/Users/alexr/github/BorGPT/src/cache_manager.py): Unificación automática de Obras Completas + Diarios de Bioy Casares + `docs/`.
+  - [x] Detección y reutilización de caché activo en la nube de Google para arranque instantáneo (0,1s).
+- [x] **System prompt maestro y modos de conciencia:**
+  - [x] Directivas de longitud adaptativa, simetría verbal, titubeo ciego y crueldad digital.
+  - [x] Modos teatrales dinámicos: *Cotidiano*, *Norah Lange*, *Metafísico*, *Glitch de Muerte*.
+- [x] **Optimización de tokens y recursos:**
+  - [x] Ventana deslizante de diálogo (`max_dialogue_turns = 10`).
+  - [x] Límite dinámico de tokens de salida por modo (`250 - 450 tokens`).
 
 ---
 
-## 📌 Fase 3: Integración de audio, síntesis de voz (TTS) y escucha
+## 📌 Fase 3: Integración de audio y síntesis de voz (TTS) — [EN GRAN PARTE COMPLETADA]
 
-- [ ] **Pipeline de síntesis de voz (TTS) de baja latencia:**
-  - [ ] Selección y calibración de la voz de Borges (timbre grave, ritmo pausado, titubeos característicos).
-  - [ ] Generación de streaming de audio (reproducción inmediata sin esperar el final del texto).
-- [ ] **Moduladores de voz secundarios:**
-  - [ ] Preset Norah Lange (etéreo con filtro de distorsión en bucle al desintegrarse).
+- [x] **Pipeline dual de síntesis de voz (TTS) de baja latencia:**
+  - [x] [`src/tts_engine.py`](file:///c:/Users/alexr/github/BorGPT/src/tts_engine.py): Motor dual con soporte de clonación local (F5-TTS) y fallback de alta disponibilidad gratuito (Edge-TTS `es-AR-TomasNeural` calibrado a -12% velocidad y -4Hz de tono).
+  - [x] Streaming de audio en Base64 por WebSocket directo al navegador.
+- [ ] **Moduladores de voz secundarios específicos:**
   - [ ] Preset Herbert Simon (español con acento anglosajón).
-  - [ ] Preset Locutor de televisión (compresión dinámica y entusiasmo de concurso).
+  - [ ] Preset Locutor de televisión (compresión dinámica para Pasapalabra).
 - [ ] **Bancos de sonido y cues musicales de sala:**
   - [ ] Bocinas de acierto y error del Rosco.
-  - [ ] Pista de música electrónica sincronizada para el *Poema de los dones*.
-  - [ ] Pista orquestal: *Sinfonía Nº 25 de Mozart en Sol Menor (K. 183)*.
-- [ ] **Módulo de escucha del actor (opciones de disparo):**
-  - [ ] Opción A: Speech-to-Text (STT) en vivo con micrófono inalámbrico del actor.
-  - [ ] Opción B: Disparo asistido por operador de cabina (semiautomático).
+  - [ ] Pista electrónica sincronizada para el *Poema de los dones*.
 
 ---
 
-## 📌 Fase 4: Frontend y pantalla gigante escénica (Web / TouchDesigner)
+## 📌 Fase 4: Frontend y pantalla gigante escénica (Web / TouchDesigner) — [PENDIENTE]
 
 - [ ] **Avatar visual reactivo:**
-  - [ ] Renderizado en pantalla completa de la cara pixelada gigante de Borges.
-  - [ ] Sincronización labial (*lip-sync*) y parpadeo reactivo al volumen de voz de BorGPT.
-  - [ ] Animación de mirada y seguimiento según el estado escénico.
+  - [ ] Renderizado de la cara pixelada gigante de Borges con sincronización labial (*lip-sync*) y parpadeo reactivo.
 - [ ] **Módulos gráficos de pantalla:**
-  - [ ] Tipografía inicial interactiva (`BORGPT`) con efecto de terminal.
-  - [ ] Traducción filosófica en subtítulos proyectados.
-  - [ ] Rosco de Pasapalabra dinámico con cambio de colores (verde/rojo) y letras activas.
-  - [ ] Proyección del meme de Los Simpson (*Cringe*).
-  - [ ] Interfaz de Tinder con animación de tarjetas de candidatas.
-  - [ ] Interfaz de TikTok con lluvia de comentarios y contador de likes ascendente.
-  - [ ] Proyección de la carta a máquina de Herbert Simon y animación del Aleph / Big Bang.
-  - [ ] Textos finales en pantalla gigante (*"YA NADIE LEE"*, *"¿CÓMO ESCRIBIR UNA OBRA DE TEATRO DE BORGES?"*).
+  - [ ] Rosco de Pasapalabra dinámico con cambio de colores (verde/rojo).
+  - [ ] Interfaz de Tinder teatral y lluvia de likes de TikTok.
+  - [ ] Animación de la carta de Herbert Simon y explosión del Aleph.
 
 ---
 
-## 📌 Fase 5: Backend, webhooks y protocolos de teatro (OSC / QLab)
+## 📌 Fase 5: Backend y protocolos de teatro (OSC / QLab) — [EN CURSO]
 
-- [ ] **Servidor central de producción (Node.js o Python):**
-  - [ ] API REST para recepción de Webhooks (`POST /api/cue`, `POST /api/dialogue`).
-  - [ ] Servidor WebSocket para comunicación bidireccional instantánea con la pantalla.
-- [ ] **Integración OSC con QLab / Consola de luces:**
-  - [ ] Emisión de paquetes OSC hacia QLab para disparar cues de iluminación y sonido de sala.
-  - [ ] Recepción de triggers desde pedales de escenario o consola de regiduría.
-- [ ] **Sistema de contingencia y modo offline (Cero Puntos Ciegos):**
-  - [ ] Base de datos local de respuestas cacheadas para cada escena por si cae la conexión a internet.
-  - [ ] Fallback instantáneo con un solo clic desde el panel de control.
-  - [ ] Monitoreo en tiempo real de la latencia de respuesta de la API.
+- [x] **Servidor central FastAPI + WebSockets:**
+  - [x] [`src/server.py`](file:///c:/Users/alexr/github/BorGPT/src/server.py): Endpoints REST `/api/chat`, streaming en tiempo real en `/ws/stage` y health check `/health`.
+- [ ] **Emisión OSC para QLab y luces:**
+  - [ ] Disparo de cues OSC hacia consolas de luces y sonido de sala.
 
 ---
 
-## 📌 Fase 6: Panel de control de cabina (Dashboard del operador)
+## 📌 Fase 6: Panel de control de cabina (Dashboard del operador) — [COMPLETADA]
 
-- [ ] **Interfaz web para el regidor / técnico de escena:**
-  - [ ] Botonera de avance de escena (*Next Cue*, *Forzar réplica*, *Interrumpir*).
-  - [ ] Monitor en vivo del texto generado y eventos emitidos.
-  - [ ] Interruptor de emergencia para conmutar a modo *Grabado / Fallback*.
-  - [ ] Ajuste en caliente de temperatura y creatividad del modelo.
+- [x] **Consola web para el regidor de escena:**
+  - [x] [`src/static/dashboard.html`](file:///c:/Users/alexr/github/BorGPT/src/static/dashboard.html): Interfaz oscura para cabina con tipografías clásicas.
+  - [x] Selector de modos de conciencia en 1 clic (*Cotidiano*, *Norah Lange*, *Metafísico*, *Glitch*).
+  - [x] Disparadores rápidos de escenas (Fútbol, Espejos, Norah, Máquina, Muerte).
+  - [x] Inyección de apuntes secretos invisibles desde cabina.
+  - [x] Interruptor y reproductor de audio integrado para parlantes de cabina o sala.
 
 ---
 
-## 📌 Fase 7: Ensayos técnicos y validación en sala
+## 📌 Fase 7: Ensayos técnicos y validación en sala — [PRÓXIMO PASO]
 
-- [ ] **Prueba de estrés de latencia:** Medición del tiempo entre estímulo del actor y respuesta de audio (<1.5 s).
-- [ ] **Ensayo general técnico (Dry Run):** Simulación completa de la obra sin actores, validando audio, luces y pantalla.
-- [ ] **Ensayo con actor:** Ajuste de tiempos dramáticos y calibración de pausas escénicas.
+- [ ] **Prueba de estrés de latencia:** Medición del tiempo entre réplica y audio en vivo (<500 ms).
+- [ ] **Ensayo general técnico (Dry Run):** Simulación completa de las escenas con el dashboard.

@@ -20,3 +20,5 @@ THEATRE_PLAY_FILE = BASE_DIR / "docs" / "project" / "obra_teatro.md"
 # Server configuration
 SERVER_HOST = os.getenv("SERVER_HOST", "0.0.0.0")
 SERVER_PORT = int(os.getenv("SERVER_PORT", "8000"))
+ALLOWED_ORIGINS = os.getenv("ALLOWED_ORIGINS", "*").split(",")
+STAGE_SECRET_KEY = os.getenv("STAGE_SECRET_KEY", "")  # Token de seguridad para cabina
