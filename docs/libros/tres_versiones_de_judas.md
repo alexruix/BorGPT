@@ -1,0 +1,216 @@
+---
+title: "Tres versiones de Judas"
+author: "Jorge Luis Borges"
+book: "Ficciones (1944) / Artificios (1944)"
+year: 1944
+genre: "Cuento teológico / ficción erudita"
+summary: "El teólogo sueco Nils Runeberg postula sucesivamente tres interpretaciones heterodoxas sobre Judas Iscariote: 1) Su traición no fue casual sino el acto indispensable para la Redención; 2) Judas ejerció un ascetismo supremo, eligiendo la mayor infamia para glorificar a Dios; 3) Dios, al hacerse hombre para salvar a la humanidad, no eligió un destino de gloria o martirio ejemplar, sino el destino más ínfimo y reprobado: Dios fue Judas."
+characters:
+  - "Nils Runeberg (teólogo y heresiarca de Lund)"
+  - "Judas Iscariote"
+  - "Jesucristo"
+key_themes:
+  - "La teología como rama de la literatura fantástica"
+  - "La simetría entre el bien y el mal"
+  - "El sacrificio ilimitado y la abnegación de la infamia"
+  - "La herejía gnóstica"
+borgpt_relevance: "Muestra la destreza borgeana para subvertir axiomas morales y teológicos mediante argumentos de lógica implacable; recurso estilístico que BorGPT utiliza en sus debates dialécticos."
+---
+
+# Tres versiones de judas
+
+> **Autor:** Jorge Luis Borges  
+> **Libro:** *Ficciones (1944) / Artificios (1944)*  
+> **Temas:** La teología como rama de la literatura fantástica, La simetría entre el bien y el mal, El sacrificio ilimitado y la abnegación de la infamia, La herejía gnóstica  
+> **Personajes:** Nils Runeberg (teólogo y heresiarca de Lund), Judas Iscariote, Jesucristo  
+> **Conexión con BorGPT:** Muestra la destreza borgeana para subvertir axiomas morales y teológicos mediante argumentos de lógica implacable; recurso estilístico que BorGPT utiliza en sus debates dialécticos.
+
+---
+
+## 1. Citas y conceptos clave para rag
+
+> *"El orden inferior es un espejo del orden superior; las formas de la tierra corresponden a las formas del cielo; las manchas de la piel son un mapa de las incorruptibles constelaciones; Judas refleja de algún modo a Jesús."*
+
+> *"Dios totalmente se hizo hombre hasta la infamia, hombre hasta la reprobación y el abismo. (...) Dios eligió un ínfimo destino: fue Judas."*
+
+---
+
+## 2. Texto completo
+
+TRES VERSIONES DE JUDAS 
+
+There seemed a certainty in degraclation. T. E. LAWRENCE: _Seven Pillan of Wisclom._ CIIJ 
+
+En el Asia Menor o en Alejandría, en el segundo siglo de nuestra fe, cuando Basílides publicaba que el cosmos era una temeraria o malvada improvisación de ángeles deficientes, Nils Runeberg hubiera dirigido, con singular pasión intelectual, uno de los conventículos gnósticos. Dante le hubiera destinado, tal vez, un sepulcro de fuego; su nombre aumentaría los catálogos de heresiarcas menores, entre Satornilo y Carpócrates; algún fragmento de sus prédicas, exornado de injurias, perduraría en el apócrifo _Líber adversus omnes haereses_ o habría perecido cuando el incendio de una biblioteca monástica devoró el último ejemplar del _Syntagma._ En cambio, Dios le deparó el siglo xx y la ciudad universitaria de Lund. Ahí, en 1904, publicó la primera edición de _Kristus och Judas;_ ahí, en 1909, su libro capital _Den hemlige Frülsaren._ (Del último hay versión alemana, ejecutada en 1912 por Emil Schering; se llama _Der heimliche Heiland.)_ 
+
+Antes de ensayar un examen de los precitados trabajos, urge repetir que Nils Runeberg, miembro de la Unión Evangélica Nacional, era hondamente religioso. En un cenáculo de París o aun de Buenos Aires, un literato podría muy bien redescubrir las tesis de Runeberg; esas tesis, propuestas en un cenáculo, serían ligeros ejercicios inútiles de la negligencia o de la blasfemia. Para Runeberg, fueron la clave que descifra un misterio central de la teología; fueron materia de meditación y de análisis, de controversia histórica y filológica, de soberbia, de júbilo y de terror. Justificaron y desbarataron su vida. Quienes recorran este artículo, deben asimismo considerar que no registra sino las conclusiones de Runeberg, no su dialéctica y sus pruebas. Alguien observará que la conclusión precedió sin duda a las "pruebas". ¿Quién se resigna a buscar pruebas de algo no creído por él o cuya prédica no le importa? 
+
+La primera edición de _Kristus och Judas_ lleva este categórico epígrafe, cuyo sentido, años después, monstruosamente dilataría el propio Nils Runeberg: _No una cosa, todas las cosas que la tradición atribuye a Judas Iscariote son falsas_ (De Quincey, 1857). Precedido por algún alemán, De Quincey especuló que 
+
+Judas entregó a Jesucristo para forzarlo a declarar su divinidad y a encender una vasta rebelión contra el yugo de Roma; Runeberg sugiere una vindicación de índole metafísica. Hábilmente, empieza por destacar la superfluidad del acto de Judas. Observa (como Robertson) que para identificar a un maestro que diariamente predicaba en la sinagoga y que obraba milagros ante concursos de miles de hombres, no se requiere la traición de un apóstol. Ello, sin embargo, ocurrió. Suponer un error en la Escritura es intolerable; no menos intolerable es admitir un hecho casual en el más precioso acontecimiento de la historia del mundo. _Ergo,_ la traición de Judas no fue casual; fue un hecho prefijado que tiene su lugar misterioso en la economía de la redención. Prosigue Runeberg: El Verbo, cuando fue hecho carne, pasó de la ubicuidad al espacio, de la eternidad a la historia, de la dicha sin. límites a la mutación y a la muerte; para corresponder a tal sacrificio, era necesario que un hombre, en representación de todos los hombres, hiciera un sacrificio condigno. Judas Iscariote fue ese hombre. Judas, único entre los apóstoles, intuyó la secreta divinidad y el terrible propósito de jesús. El Verbo se había rebajado a mortal; Judas, discípulo del Verbo, podía rebajarse a delator (el peor delito que la infamia soporta) y a ser huésped del fuego que no se apaga. El orden inferior es un espejo del orden superior; las formas de la tierra corresponden a las formas del cielo; las manchas de la piel son un mapa de las incorruptibles constelaciones; Judas refleja de algún modo a Jesús. De ahí los treinta dineros y el beso; de ahí la muerte voluntaria, para merecer aun más la Reprobación. Así dilucidó Nils Runeberg el enigma de Judas. 
+
+Los teólogos de todas las confesiones lo refutaron. Lars Peter Engstróm lo acusó de ignorar, o de preterir, la unión hipostática; Axel Borelius, de renovar la herejía de los docetas, que negaron la humanidad de Jesús; el acerado obispo de Lund, de contradecir el tercer versículo del capítulo veintidós del evangelio de San Lucas. 
+
+Estos variados anatemas influyeron en Runeberg, que parcialmente reescribió el reprobado libro y modificó su doctrina. Abandonó a sus adversarios el terreno teológico y propuso oblicuas razones de orden moral. Admitió que Jesús, "que disponía de **los** considerables recursos que la Omnipotencia puede ofrecer", no necesitaba de un hombre para redimir a todos los hombres. Rebatió, luego, a quienes afirman que nada sabemos del inexplicable traidor; sabemos, dijo, que fue uno de los apóstoles, uno de los elegidos para anunciar el reino de los cielos, para sanar enfermos, para limpiar leprosos, para resucitar muertos y para echar fuera demonios (Mateo 10: 7-8; Lucas 9:1). Un varón a 
+
+quien ha distinguido así el Redentor merece de nosotros la mejor interpretación de sus actos. Imputar su crimen a la codicia (como lo han hecho algunos, alegando a Juan 12:6) es resignarse al móvil más torpe. Nils Runeberg propone el móvil contrario: un hiperbólico y hasta ilimitado ascetismo. El asceta, para mayor gloria de Dios, envilece y mortifica la carne; Judas hizo lo propio con el espíritu. Renunció al honor, al bien, a la paz, al reino de los cielos, como otros, menos heroicamente, al placer.<sup>1</sup> Premeditó con lucidez terrible sus culpas. En el adulterio suelen participar la ternura y la abnegación; en el homicidio, el coraje; en las profanaciones y la blasfemia, cierto fulgor satánico. Judas eligió aquellas culpas no visitadas por ninguna virtud: el abuso de confianza (Juan 12:6) y la delación. Obró con gigantesca humildad, se creyó indigno de ser bueno. Pablo ha escrito: _El que se gloría, gloríese en el Señor_ (L Corintios 1:31) ; Judas buscó el Infierno, porque la dicha del Señor le bastaba. Pensó que la felicidad, como el bien, es un atributo divino y que no deben usurparlo los hombres.<sup>2</sup> 
+
+Muchos han descubierto, _post factum,_ que en los justificables comienzos de Runeberg está su extravagante fin y que. _Den hemlige Frdlsaren_ es una mera perversión o exasperación de _Kristus och Judas._ A fines de 1907, Runeberg terminó y revisó el texto manuscrito; casi dos años transcurrieron sin que lo entregara a la imprenta. En octubre de 1909, el libro apareció con un prólogo (tibio hasta lo enigmático) del hebraísta dinamarqués Erik Eríjord y con este pérfido epígrafe: _En el mundo estaba y el mundo fue hecho por él, y el mundo no lo conoció_ (Juan 1:10) . El argumento general no es complejo, si bien la conclusión es monstruosa. Dios, arguye Nils Runeberg, se rebajó a ser hombre para la redención del género humano; cabe conjeturar que fue perfecto el sacrificio obrado por él, no invalidado o atenuado por omisiones. Limitar lo que padeció a la agonía de una tarde en la cruz es blasfematorio<sup>3</sup> . Afirmar que fue hombre y que fue incapaz de 
+
+> 1 Borelius interroga con burla: _¿Por qué no renunció a renunciar? ¿Por qué no a renunciar a renunciar?_ 
+
+> _2_ Euclydes da Cunha, en un libro ignorado por Runeberg, anota que para el hgresiarca de Canudos, Antonio Conselheiro, la virtud "era una casi impiedad". El lector argentino recordará pasajes análogos en la obra de Almafuerte. Runeberg publicó, en la hoja simbólica _Sju insegel,_ un asiduo poema descriptivo, _El agua secreta;_ las primeras estrofas narran lqs hechos de un tumultuoso día; las últimas, el hallazgo de un estanque glacial; el poeta sugiere que la perduración de esa agua silenciosa corrige nuestra inútil violencia y de algún modo la permite y la absuelve. El poema concluye así: _El agua de la selva es feliz; podemos ser malvados y dolorosos._ 
+
+3 Maurice Abramowicz observa: "Jésus, d'aprés ce scandinave, a toujours le beau role; ses déboires, gráce á la science des typographes, jouissenf d'une 
+
+pecado encierra contradicción; los atributos de _impeccabilitas_ y de _humanitas_ no son compatibles. Kemnitz admite que el Redentor pudo sentir fatiga, frío, turbación, hambre y sed; también cabe admitir que pudo pecar y perderse. El famoso texto _Brotará como raíz de tierra sedienta; no hay buen parecer en él, ni hermosura; despreciado y el último de los hombres; varón de dolores, experimentado en quebrantos_ (Isaías 53:2-3), es para muchos una previsión del crucificado, en la hora de su muerte; para algunos (verbigracia, Hans Lassen Martensen), una refutación de la hermosura que el consenso vulgar atribuye a Cristo; para Runeberg, la puntual profecía no de un momento sino de todo el atroz porvenir, en el tiempo y en la eternidad, del Verbo hecho carne. Dios totalmente se hizo hombre pero hombre hasta la infamia, hombre hasta la reprobación y el abismo. Para salvarnos, pudo elegir _cualquiera_ de los destinos que traman la perpleja red de la historia; pudo ser Alejandro o Pitágoras b Rurik o Jesús; eligió un ínfimo destino: fue Judas. 
+
+En vano propusieron esa revelación las librerías de Estocolmo y de Lund. Los incrédulos la consideraron, _a priori,_ un insípido y laborioso juego teológico; los teólogos la desdeñaron. Runeberg intuyó en esa indiferencia ecuménica una. casi milagrosa confirmación. Dios ordenaba esa indiferencia; Dios no qucrL que se propalara en la tierra Su terrible secreto. Runeberg comprendió que no era llegada la hora. Sintió que estaban convergiendo sobre él antiguas maldiciones divinas; recordó a Elias y a Moisés, que en la montaña se taparon la cara para no ver a Dios; a Isaías, que se aterró cuando sus ojos vieron a Aquel cuya gloria llena la tierra; a Saúl, cuyos ojos quedaron ciegos en el camino dé Damasco; al rabino Simeón ben Azaí, que vio el Paraíso y murió; al famoso hechicero Juan de Viterbo, que enloqueció cuando pudo ver a la Trinidad; a los Midrashim, que abominan de los impíos que pronuncian el _Shem Hamephormh,_ el Secreto Nombre de Dios. ¿No era él, acaso, culpable de ese crimen oscuro? ¿No sería ésa la blasfemia contra el Espíritu, la que no será perdonada? (Mateo 12:31). Valerio Sorano murió por haber divulgado el 
+
+réputation polyglotte; sa résidence de trente-trois ans parmi les humains ne fut, en somme, qu'une villégiature." Erfjord, en el tercer apéndice de la _Christelige Dogmatik,_ refuta ese pasaje. Anota que la crucifixión de Dios no ha cesado, porque lo acontecido una sola vez en el tiempo se repite sin tregua en la eternidad. Judas, _ahora,_ sigue cobrando las monedas ¿e plata; sigue besando a Jesucristo; sigue arrojando las monedas de plata en el templo; sigue anudando el lazo de la cuerda en el campo de sangre. (Erfjord, para justificar esa afirmación, invoca el último capítulo del primer tomo de la _Vindicación Se la eternidad,_ de Jaromir Hladík.) 
+
+518 JORGE LUIS BORGES—OBRAS COMPLETAS 
+
+oculto nombre de Roma; ¿qué infinito castigo sería el suyo, por haber descubierto y divulgado el horrible nombre de Dios? Ebrio de insomnio y de vertiginosa dialéctica, Nils Runeberg erró por las calles de Malmó, rogando a voces que le fuera deparada la gracia de compartir con el Redentor el Infierno. 
+
+Murió de la rotura de un aneurisma, el primero de marzo de 1912. Los heresiólogos tal vez lo recordarán; agregó al concepto del Hijo, que parecía agotado, las complejidades del mal y del infortunio. 
+
+###### EL FIN 
+
+Recabarren, tendido, entreabrió los ojos y vio el oblicuo cielo raso de junco. De la otra pieza le llegaba un rasgueo de guitarra, una suerte de pobrísimo laberinto que se enredaba y desataba infinitamente . . . Recobró poco a poco la realidad, las cosas cotidianas que ya no cambiaría nunca por otras. Miró sin lástima su gran cuerpo inútil, el poncho de lana ordinaria que le envolvía las piernas. Afuera, más allá de los barrotes de la ventana, se dilataban la llanura y la tarde; había dormido, pero aun quedaba mucha luz en el cielo. Con el brazo izquierdo tanteó, hasta dar con un cencerro de bronce que había al pie del catre. Una o dos veces lo agitó; del otro lado de la puerta seguían llegándole los modestos acordes. El ejecutor era un negro que había aparecido una noche con pretensiones de cantor y que había desafiado a otro forastero a una larga payada de contrapunto. Vencido, seguía frecuentando la pulpería, como a la espera de alguien. Se pasaba las horas con la guitarra, pero no había vuelto a cantar; acaso la derrota lo> había amargado. La gente ya se había acostumbrado a ese hombre inofensivo. Recabarren, patrón de la pulpería, no olvidaría ese contrapunto; al día siguiente, al acomodar unos tercios de yerba, se le había muerto bruscamente el lado derecho y había perdido el habla. A fuerza de apiadarnos de las desdichas de los héroes de las novelas concluimos apiadándonos con exceso de las desdichas propias; no así el sufrido Recabarren, que aceptó la parálisis como antes había aceptado el rigor y las soledades de América. Habituado a viyir en el presente, como los animales, ahora miraba el cielo y pensaba que el cerco rojo de la luna era señal de lluvia. 
+
+Un chico de rasgos aindiados (hijo suyo, tal vez) entreabrió la puerta. Recabarren le preguntó con los ojos si había algún parroquiano. El chico, taciturno, le dijo por señas que no; el negro no contaba. El hombre postrado se quedó solo; su mano izquierda jugó un rato con el cencerro, como si ejerciera un poder. 
+
+La llanura, bajo el último sol, era casi abstracta, como vista en un sueño. Un punto se agitó en el horizonte y creció hasta ser un jinete, que venía, o parecía venir, a la casa. Recabarren vio el chambergo, el largo poncho oscuro, el caballo moro, pero no la cara del hombre, que, por fin, sujetó el galope y vino acercándose al trotecito. A unas doscientas varas dobló. Recabarren no lo vio 
+
+520 JORGE LUIS BORGES—OBRAS COMPLETAS 
+
+más, pero lo oyó chistar, apearse, atar el caballo al palenque y entrar con paso firme en*^la pulpería. 
+
+Sin alzar los ojos del instrumento, donde parecía buscar algo, el negro dijo con dulzura: 
+
+—Ya sabía yo señor, que podía contar con usted. 
+
+El otro, con voz áspera, replicó: 
+
+—Y yo con vos, moreno. Una porción de días te hice esperar, pero aquí he venido. 
+
+Hubo un silencio. Al fin, el negro respondió: 
+
+—Me estoy acostumbrando a esperar. He esperado siete años. El otro explicó sin apuro: 
+
+—Más de siete años pasé yo sin ver a mis hijos. Los encontré ese día y no quise mostrarme como un hombre que anda a las puñaladas. * —Ya me hice cargo —dijo el negro—. Espero que los dejó con salud. . . 
+
+El forastero, que se había sentado en el mostrador, se rió de buena gana. Pidió una caña y la paladeó sin concluirla. 
+
+—Les di buenos consejos —declaró—, que nunca están de más y no cuestan nada. Les dije, entre otras cosas, que el hombre no debe derramar la sangre del hombre. 
+
+Un lento acorde precedió la respuesta del negro: 
+
+—Hizo bien. Así no se parecerán a nosotros. 
+
+—Por lo menos a mí —dijo el forastero y añadió como si pensara en voz alta—: Mi destino ha querido que yo matara y ahora, otra) vez, me pone el cuchillo en la mano. 
+
+El negro, como si no lo oyera, observó: 
+
+—Con el otoño se van acortando los días. 
+
+—Con la luz que queda me basta —replicó el otro, poniéndose de pie. _>_ 
+
+Se cuadró ante el negro y le dijo como cansado: 
+
+—Deja en paz la guitarra, que hoy te espera otra clase de contrapunto. 
+
+Los dos se encaminaron a la puerta. El negro, al salir, murmuró: 
+
+—Tal vez en éste me vaya tan mal como en el primero. 
+
+El otro contestó con seriedad: 
+
+—En el primero no te fue mal. Lo que pasó es que andabas ganoso de llegar al segundo. 
+
+Se alejaron un trecho de las casas,^caminando a la par. Un lugar de la llanura era igual a otro y la luna resplandecía. De pronto se miraron, se detuvieron y el forastero se quitó las espuelas. Ya estaban con el poncho en el antebrazo, cuando el negro dijo: 
+
+—Una cosa quiero pedirle antes que nos trabemos. Que en este 
+
+encuentro ponga todo su coraje y toda su maña, como en aquel otro de hace siete años, cuando mató a mi hermano. 
+
+Acaso por primera vez en su diálogo, Martín Fierro oyó el odio. Su sangre lo sintió como un acicate. Se entreveraron y el acero filoso rayó y marcó la cara del negro. 
+
+Hay una hora de la tarde en que la llanura está por decir algo; nunca lo dice o tal vez lo dice infinitamente y no lo entendemos, o lo entendemos pero es intraducibie como una música. . . Desde su catre, Recabarren vio el fin. Una embestida y el negro reculó, perdió pie, amagó un hachazo a la cara y se tendió en una puñalada profunda, que penetró en el vientre. Después vino otra que el pulpero no alcanzó a precisar y Fierro no se levantó. Inmóvil, el negro parecía vigilar su agonía laboriosa. Limpió el facón ensangrentado en el pasto y volvió a las casas con lentitud, sin mirar para atrás. Cumplida su tarea de justiciero, ahora era nadie. Mejor dicho era el otro: no tenía destino sobre la tierra y había matado a un hombre. 
+
+###### LA SECTA DFT. Fff.NTX 
+
+Quienes escriben que la secta del Fénix tuvo su origen en Heliópolis, y la derivan de la restauración religiosa que sucedió a la muerte del reformador Amenophis IV, alegan textos de Heródoto, de Tácito y de los monumentos egipcios, pero ignoran, o quieren ignorar, que la denominación por el Fénix no es anterior a Hrabano Mauro y que las fuentes más antiguas (las _Saturnales_ o Flavio Josefo, digamos) sólo hablan de la Gente de la Costumbre o de la Gente del Secreto. Ya Gregorovius observó, en los conventículos de Ferrara, que la mención del Fénix era rarísima en el lenguaje oral; en Ginebra he tratado con artesanos que no me comprendieron cuando inquirí si eran hombres del Fénix, pero que admitieron, acto continuo, ser hombres del Secreto. Si no rne engaño, igual cosa acontece con los budistas; el nombre por el cual los conoce el mundo no es el que ellos pronuncian. Miklosich, en una página demasiado famosa, ha equiparado los sectarios del Fénix 'a los gitanos. En Chile y en Hungría hay gitanos y también hay sectarios; fuera de esa especie de ubicuidad, muy poco tienen en común unos y otros. Los gitanos son chalanes, caldereros, herreros y decidores de la buenaventura; los sectarios suelen ejercer felizmente las profesiones liberales. Los gitanos configuran un tipo físico y hablan, o hablaban, un idioma secreto; los sectarios se confunden con los demás y la prueba es que no han sufrido persecuciones. Los gitanos son pintorescos e inspiran a los malos poetas; los romances, los cromos y los boleros omiten a los sectarios... Martín Buber declara que los judíos son esencialmente patéticos; no todos los sectarios lo son y algunos abominan del patetismo; esta pública y notoria verdad basta para refutar el error vulgar (absurdamente defendido por Urmann) que ve en el Fénix una derivación de Israel. La gente más o menos discurre así: Urmann era un hombre sensible; Urmann era judío; Urmann frecuentó a los sectarios en la judería de Praga; la afinidad que Urmann sintió prueba un hecho real. Sinceramente, no puedo convenir con ese dictamen. Que los sectarios en un medio judío se parezcan a los judíos no prueba nada; lo innegable es que se parecen, como el infinito Shakespeare de Hazlitt,' a todos los hombres del mundo. Son todo para todos, como el Apóstol; dias pasados el doctor Juan Francisco Amaro, de Paysandú, ponderó la facilidad con que se acriollaban. 
+
+- He dicho que la historia de la secta no registra persecuciones. Ello es verdad, pero como no hay grupo humano en que no figuren partidarios del Fénix, también es cierto que no hay persecución o rigor que estos no hayan sufrido y ejecutado. En las guerras occidentales y en las remotas guerras del Asia han vertido su sangre secularmente, bajo banderas enemigas; de muy poco les vale identificarse con todas las naciones del orbe. 
+
+Sin un libro sagrado que los congregue como la Escritura a Israel, sin una memoria común, sin esa otra memoria que es un idioma, desparramados por la faz de la tierra, diversos de color y de rasgos, una sola cosa —el Secreto— los une y los unirá hasta el fin de los días. Alguna vez, además del Secreto hubo una leyenda (y quizá un mito cosmogónico), pero los superficiales hombres del Fénix la han olvidado y hoy sólo guardan la oscura tradición de un castigo. De un castigo, de un pacto o de un privilegio, porque las versiones difieren y apenas dejan entrever el fallo de un Dios que asegura a una estirpe la eternidad, si sus hombres, generación tras generación, ejecutan un rito. Fie compulsado los informes de los viajeros, he conversado con patriarcas y teólogos; puedo dar fe de que el cumplimiento del rito es la única práctica religiosa que observan los sectarios. El rito constituye el Secreto. Éste, como ya indiqué, se trasmite de generación en generación, pero el uso no quiere que las madres lo enseñen a los hijos, ni tampoco los sacerdotes; la iniciación en el misterio es tarea de los individuos más bajos. Un esclavo, un leproso o un pordiosero hacen de mistagogos. También un niño puede adoctrinar a otro niño. El acto en sí es trivial, momentáneo y no requiere descripción. Los materiales son el corcho, la cera o la goma arábiga. (En la liturgia se habla de légamo; éste suele usarse también.) No hay templos dedicados especialmente a la celebración de este culto, pero una ruina, un sótano o un zaguán se juzgan lugares propicios. El Secreto es sagrado pero no deja de ser un poco ridículo; su ejercicio es furtivo y aun clandestino y los adeptos no hablan de él. No hay palabras decentes para nombrarlo, pero se entiende que todas las palabras lo nombran o mejor dicho, que inevitablemente lo aluden, y así, en el diálogo yo he dicho una cosa cualquiera y los adeptos han sonreído o se han puesto incómodos, porque sintieron que yo había tocado el Secreto. En las literaturas germánicas hay poemas escritos por sectarios, cuyo sujeto nominal es el mar o el crepúsculo de la noche; son, de algún modo, símbolos del Secreto, oigo repetir. _Orbis terrarum est speculum Ludi_ reza un adagio apócrifo que Du Cange registró en su .Glosarió. Una suerte de horror sagrado impide a algunos fieles la ejecución del simplísimo rito; los otros los desprecian, pero ellos se desprecian aun más. Gozan ele mucho crédito, en cambio, quienes 
+
+deliberadamente renuncian a la Costumbre y logran un comercio directo con la divinidad; éstos, para manifestar ese comercio, lo hacen con figuras de la liturgia y así John of the Rqod escribió: 
+
+- , _Sepan los Nueve Firmamentos que el Dios Es deleitable como el Corcho y el Cieno._ 
+
+He merecido en tres continentes la amistad de muchos devotos del Fénix; me consta que el secreto, al principio, les pareció baladí, penoso, vulgar y (lo que aun es más extraño) increíble. No se avenían a admitir que sus padres se hubieran rebajado a tales manejos. Lo raro es que el Secreto no se haya perdido hace tiempo; a despecho de las vicisitudes del orbe, a despecho de las guerras y de los éxodos, llega, tremendamente, a todos los fieles. Alguien no ha vacilado en afirmar que ya es instintivo. 
+
+###### EL SUR 
+
+El hombre que desembarcó en Buenos Aires en 1871 se llamaba Johannes Dahlmann y era pastor de la iglesia evangélica; en 1939, uno de sus nietos, Juan Dahlmann, era secretario de una biblioteca municipal en la calle Córdoba y se sentía hondamente argentino. Su abuelo materno había sido aquel Francisco Flores, del 2 de infantería de línea, que murió en la frontera de Buenos Aires, lanceado por indios de Catriel; en la discordia de sus dos linajes, Juan Dahlmann (tal veza impulso de la sangre germánica) eligió el de ese antepasado romántico, o de muerte romántica. Un estuche con el daguerrotipo de un hombre inexpresivo y barbado, una vieja espada, la dicha y el coraje de ciertas músicas, el hábito de estrofas del _Martín Fierro,_ los años, el desgano y la soledad, • fomentaron ese criollismo algo voluntario, pero nunca ostentoso. A costa de algunas privaciones, Dahlmann había logrado salvar, el casco de una estancia en el Sur, que fue de los Flores; una de las c.ostumbres de su memoria era la imagen de los eucaliptos balsámicos y de la larga casa rosada que alguna vez fue carmesí. Las tareas y acaso la indolencia lo retenían en la ciudad. Verano tras verano se contentaba con la idea abstracta de posesión y con la certidumbre de que su casa estaba esperándolo, en un sitio preciso de la llanura. En los últimos días de febrero de 1939, algo le aconteció. 
+
+Ciego a las culpas, el destino puede ser despiadado con las mínimas distracciones. Dahlmann había conseguido, esa tarde, un ejemplar descabalado de las Mil y una Noches de Weil; ávido de examinar ese hallazgo, no esperó que bajara el ascensor y subió con apuro las escaleras; algo en la oscuridad Je rozó la frente ¿un murciélago, un pájaro? En la cara de la mujer que le abrió la puerta vio grabado el horror, y la mano que se pasó por la frente salió roja de sangre. La arista de un batiente recién pintado que alguien se olvidó de cerrar le habría hecho esa herida. Dahlmann logró dormir, pero a la madrugada estaba despierto y desde aquella hora el sabor de todas las cosas fue atroz. La fiebre lo gastó y las ilustraciones de las Mil y Una Noches sirvieron para decorar pesadillas. Amigos y parientes lo visitaban y con exagerada san* risa le repetían que lo hallaban muy bien. Dahlmann los oía con una especie dé débil estupor y le maravillaba que no supieran 
+
+5 2 6 
+
+que estaba en el infierno. Ocho días pasaron, como ocho siglos. Una tarde, el médico habitual se presentó con un médico nuevo y lo condujeron a un sanatorio de la calle Ecuador, porque era indispensable sacarle una radiografía. Dahlmann, en el coche de plaza que los llevó, pensó que en una habitación que no fuera la suya podría, al fin, dormir. Se sintió feliz y conversador; en cuanto llegó, lo desvistieron, le raparon la cabeza, lo sujetaron con metales a una camilla, lo iluminaron hasta le ceguera y el vértigo, lo auscultaron y un hombre enmascarado le clavó una aguja en el brazo. Se despertó con náuseas, vendado, en una celda que tenía algo de pozo y, en los días y noches que siguieron a la operación pudo entender que apenas había estado, hasta entonces, en un arrabal del infierno. El hielo no dejaba en su boca el menor rastro de frescura. En esos días, Dahlmann minuciosamente se odió; odió su identidad, sus necesidades corporales, su humillación, la barba que le erizaba la cara. Sufrió con estoicismo las curaciones, q.ie eran muy dolorosas, pero cuando el cirujano le dijo que había estado a punto de morir de una septicemia, Dahlmann se echó a llorar, condolido de su destino. Las miserias físicas y la incesante previsión de las malas noches no le habían dejado pensar en algo tan abstracto como la muerte. Otro día, el cirujano le dijo que estaba reponiéndose y que, muy pronto, podría ir a convalecer a la estancia. Increíblemente, el día prometido llegó. 
+
+A la realidad le gustan las simetrías y los leves anacronismos; Dahlmann había llegado al sanatorio en un coche de plaza y ahora un coche de plaza lo llevaba a Constitución. La primera frescura del otoño, después de la opresión del verano, era como un símbolo natural de su destino rescatado de la muerte y la fiebre. La ciudad, a las siete de la mañana, no había perdido ese aire de casa vieja que le infunde la noche; las calles eran como largos zaguanes, las plazas como patios. Dahlmann la reconocía con felicidad y con un principio de vértigo; unos segundos antes de que las registraran sus ojos, recordaba las esquinas, las carteleras, las modestas diferencias de Buenos Aires. En la luz amarilla del nuevo día, todas las cosas regresaban a él. 
+
+Nadie ignora que el Sur empieza del otro lado de Rivadavia. . Dahlmann solía repetir que ello no es una convención y que • quien atraviesa esa calle entra en un mundo más antiguo y más firme. Desde el coche buscaba entre la nueva edificación, la ventana de rejas, el llamador, el arco de la puerta, el zaguán, el íntimo patio. 
+
+En el _hall_ de la estación advirtió que faltaban treinta minutos. Recordó bruscamente que en un café de la calle Brasil (a pocos metros de la casa de Yrigoyen) había un enorme gato que se deja- 
+
+ba acariciar por la gente, como una divinidad desdeñosa. Entró. Ahí estaba el gato, dormido. Pidió una taza de café, la endulzó lentamente, la probó (ese placer le había sido vedado en la clínica) y pensó, mientras alisaba el negro pelaje, que aquel contacto era ilusorio y que estaban como separados por un cristal, porque el hombre vive en el tiempo, en la sucesión, y el mágico animal, en la actualidad, en la eternidad del instante. 
+
+A lo largo del penúltimo andén el tren esperaba. Dahlmann recorrió los vagones y dio con uno casi vacío. Acomodó en la red la valija; cuando los coches arrancaron, la abrió y sacó, tras alguna vacilación, el primer tomo de las Mil y Una Noches. Viajar con este libro, tan vinculado a la historia de su desdicha, era una afirmación de que esa desdicha había sido anulada y un desafío alegre y secreto a las frustradas fuerzas del mal. 
+
+A los lados del tren, la ciudad se desgarraba en suburbios; esta visión y luego la de jardines y quintas demoraron el principio de la lectura. La verdad es que Dahlmann leyó poco; la montaña de piedra imán y el genio que ha jurado matar a su bienhechor eran, quién lo niega, maravillosos, pero no mucho más que la mañana y que el hecho de ser. La felicidad lo distraía de Shahrazad y de sus milagros superfluos; Dahlmann cerraba el libro y se dejaba simplemente vivir. 
+
+El almuerzo (con el caldo servido en boles de metal reluciente, como en los ya remotos veraneos de la niñez) fue otro goce tranquilo y agradecido. 
+
+_Mañana me despertaré en la estancia,_ pensaba, y era como si a un tiempo fuera dos hombres: el que avanzaba por el día otoñal y por la geografía de la patria, y el otro, encarcelado en un sanatorio y sujeto a metódicas servidumbres. Vio_ casas de ladrillo sin revocar, esquinadas y largas, infinitamente mirando pasar los trenes; vio jinetes en los terrosos caminos; vio zanjas y lagunas y hacienda; vio largas nubes luminosas que parecían de mármol, y todas estas cosas eran casuales, como sueños de la llanura. También creyó reconocer árboles y sembrados que no hubiera podido nombrar, porque su directo conocimiento de la camp'aña era harto inferior a su conocimiento nostálgico y literario. 
+
+Alguna vez durmió y en sus sueños estaba el ímpetu del tren. Ya el blanco sol intolerable de las doce del día era el sol amarillo que precede al anochecer y no tardaría en ser rojo. También el coche era distinto; no era el que fue en Constitución, al dejar el andén: la llanura y las horas lo habían atravesado y transfigurado. Afuera la móvil sombra del vagón' se alargaba hacia el horizonte. No turbaban la tierra elemental ni poblaciones ni otros signos humanos. Todo era vasto, pero al mismo tiempo era íntimo y, de alguna manera, secreto. En el campo desaforado, a veces 
+
+5 2 8 
+
+no había otra cosa que un toro. La soledad era perfecta y tal vez hostil, y Dahlmann pudo sospechar que viajaba al pasado y no sólo al Sur. De esa conjetura fantástica lo distrajo el inspector, que al ver su boleto, le advirtió que el tren no lo dejaría en la estación de siempre sino en otra, un poco anterior y apenas conocida por Dahlmann. (El hombre añadió una explicación que Dahlmann no trató de entender ni siquiera de oír, porque el mecanismo de los hechos no le importaba.) 
+
+El tren laboriosamente se detuvo, casi en medio del campo. Del otro lado de las vías quedaba la estación, que era poco más que un andén con un cobertizo. Ningún vehículo tenían, pero el jefe opinó que tal vez pudiera conseguir uno en un comercio que le indicó a unas diez, doce, cuadras. 
+
+Dahlmann aceptó la caminata como una pequeña aventura. Ya se había hundido el sol, pero un esplendor final exaltaba la viva y silenciosa llanura, antes de que la borrara la noche. Menos para no fatigarse que para' hacer durar esas cosas, Dahlmann caminaba despacio, aspirando con grave felicidad el olor del trébol. 
+
+El almacén, alguna vez, había sido punzó, pero los años habían mitigado para su bien ese color violento. Algo en su pobre arquitectura le recordó un grabado en acero, acaso de una vieja edición de _Pablo y Virginia._ Atados al palenque había unos- caballos. Dahlmann, adentro, creyó reconocer al patrón; luego comprendió que lo había engañado su parecido con uno de los empleados del sanatorio. El hombre, oído el caso, dijo que le haría atar la jardinera; para agregar otro hecho a aquel día y para llenar ese tiempo, Dahlmann resolvió comer en el almacén. 
+
+En una mesa comían y bebían ruidosamente unos muchachones, en los que Dahlmann, al principio, no se fijó. En el suelo, apoyado en el mostrador, se acurrucaba, inmóvil como una cosa, un hombre muy viejo. Los muchos años lo habían reducido y pulido como las aguas a una piedra o las generaciones de los hombres a una sentencia. Era oscuro, chico y reseco, y estaba como fuera del tiempo, en una eternidad. Dahlmann registró con satisfacción la vincha, el poncho de bayeta, el largo chiripá y la bota de potro y se dijo, rememorando inútiles discusiones con gente de los partidos del Norte o con entrerrianos, que gauchos de esos ya no quedan más que en el Sur. 
+
+Dahlmann se acomodó junto a la ventana. La oscuridad fue quedándose con el campo, pero su olor y sus rumores aun le llegaban entre los barrotes de hierro. El patrón le trajo sardinas y después carne asada; Dahlmann las empujó con unos vasos de vino tinto. Ocioso, paladeaba el áspero sabor y dejaba errar la mirada por el local, ya un poco soñolienta. La lámpara de kerosén pen- 
+
+día de uno de los tirantes; los parroquianos de la otra mesa eran tres: dos parecían peones de chacra; otro, de rasgos achinados y, torpes, bebía con el chambergo puesto. Dahlmann, de pronto, sintió un leVe roce en la cara. Junto al vaso ordinario de vidrio turbio, sobre una de las rayas del mantel, había una bolita de miga. Eso era todo, pero alguien se la había tirado. 
+
+Los de la, otra mesa parecían ajenos a él. Dahlmann, perplejo, decidió que nada había ocurrido y abrió el volumen de las _Mil y Una Noches,_ como para tapar la realidad. Otra bolita lo alcanzó a los pocos minutos, y esta vez los peones se rieron. Dahlmann se dijo que no estaba asustado, pero que sería un disparate que él, un convaleciente, se dejara arrastrar por desconocidos a una pelea confusa. Resolvió salir; ya estaba de pie cuando el patrón se le acercó y lo exhortó con voz alarmada: 
+
+—Señor Dahlmann, no les haga caso a esos mozos, que están medio alegres. 
+
+Dahlmann no se extrañó de que el otro, ahora, lo conociera, pero sintió que estas palabras conciliadoras agravaban, de hecho, la situación. Antes, la provocación de los peones era a una cara accidental, casi a nadie; ahora iba contra él y contra su nombre y lo sabrían los vecinos. Dahlmann hizo a un lado al patrón, se enfrentó con los peones y les preguntó qué andaban buscando. 
+
+El compadrito de la cara achinada se paró, tambaleándose. A un paso de Juan Dahlmann, lo injurió a gritos, como si estuviera muy lejos. Jugaba a exagerar su borrachera y esa exageración era una ferocidad y una burla. Entre malas palabras y obscenidades, tiró al aire un largo cuchillo, lo siguió con los ojos, lo barajó, e invitó a Dahlmann a pelear. El patrón objetó con trémula voz que Dahlmann estaba desarmado. En ese punto, algo imprevisible ocurrió. 
+
+Desde un rincón, el viejo gaucho extático, en el que Dahlmann vio una cifra del Sur (del Sur que era suyo), le tiró una daga desnuda que vino a caer a sus pies. Era como si el Sur hubiera resuelto que Dahlmann aceptara el duelo. Dahlmann se inclinó a recoger lá daga y sintió dos cosas. La primera, que ese acto casi instintivo lo comprometía a pelear. La segunda, que el arma, en su mano torpe, no serviría para defenderlo, sino para justificar que lo mataran. Alguna vez había jugado con un puñal, como todos los hombres, pero su esgrima no pasaba de una noción de que los golpes deben ir hacia arriba y con el filo para adentro. _No hubieran permitido en el sanatorio que me pasaran estas cosas,_ pensó. 
+
+—Vamos saliendo —dijo el otro. 
+
+Salieron, y si en Dahlmann no había esperanza, tampoco había 
+
+temor. Sintió, al atravesar el umbral, que morir en una pelea a cuchillo, a cielo abierto y acometiendo, hubiera sido una liberación para él, una felicidad y una fiesta, en la primera noche del sanatorio, cuando le clavaron la aguja. Sintió que si él, entonces, hubiera podido elegir o soñar su muerte, ésta es la muerte que hubiera elegido o soñado. 
+
+Dahlmann empuña con firmeza el cuchillo, que acaso no sabrá manejar, y sale a la llanura.
